@@ -1,0 +1,28 @@
+/* Header.css */
+
+.navbar .nav-link {
+    transition: color 0.3s ease;
+    color: white;
+}
+
+.navbar .nav-link:hover {
+    color: #007bff; /* Change to your desired hover color */
+}
+
+.dropdown-menu {
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.dropdown-menu.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Center the "Create" button */
+.container-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+}
